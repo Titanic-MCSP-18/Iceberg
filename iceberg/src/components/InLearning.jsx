@@ -1,4 +1,4 @@
-import '../InLearning.css'
+import './InLearning.css'
 
 const InLearning = () => {
     return (

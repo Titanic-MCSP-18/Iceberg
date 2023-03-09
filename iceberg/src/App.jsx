@@ -12,6 +12,7 @@ import Footer from "./Components/footer";
 import TopAd from "./Components/TopAd";
 import BottomAd from "./Components/BottomAd";
 import PeopleAlsoViewed from './Components/PeopleAlsoViewed';
+import InLearning from './Components/InLearning'
 import { ProfileProvider } from "./context/ProfileContext";
 
 export const ExperienceContext = React.createContext();
@@ -44,6 +45,7 @@ function App() {
 				<TopAd />
 				<BottomAd />
 				<PeopleAlsoViewed />
+				<InLearning />
 			</ExperienceContext.Provider>
       </ProfileProvider>
 		</>
